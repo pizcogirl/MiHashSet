@@ -57,5 +57,18 @@ public class MiHashSet
         return lista.contains(elemento);
     }
     
+    /**
+     * Metodo que devuelve si el hashSet esta vacio o no
+     * @return True si el hashset esta vacio, false si no
+     */
+    public boolean isEmpty()
+    {
+        return lista.isEmpty();
+    }
+    
+    /**
+     * 
+     */
+    
     
 }
