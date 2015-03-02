@@ -78,7 +78,8 @@ public class MiHashSet
         // del boolean devolver a true
         if(lista.contains(elemento))
         {
-            lista.remove(elemento);
+            int indice = lista.indexOf(elemento);
+            lista.remove(indice);
             devolver = true;
         }
         return devolver;
